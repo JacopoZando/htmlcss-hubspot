@@ -104,7 +104,7 @@ li.has-dropdown {
   width: 650px;
   text-align: left;
   margin-left: 15%;
-  margin-top: 5%;
+
 }
 #banner-title {
   font-size: 60px;
@@ -185,6 +185,9 @@ text-align: center;
 .containtop {
   border: 1px solid green;
   background-color: white;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 50px;
 
 }
 
@@ -201,16 +204,16 @@ text-align: center;
 }
 
 .containtop-left {
-  width: 10%;
+  width: 20%;
   text-align: center;
-  margin-left: 10%
-
+  margin-left: 5%;
+  margin-top: 30px;
 
 
 }
 .img-containtop {
   width: 150px;
-  margin-top: 40%;
+  margin-top: 15%;
   margin-bottom: 15px;
 }
 
@@ -218,7 +221,7 @@ text-align: center;
 width: 62%;
 text-align: left;
 margin-left: 8%;
-margin-right: 10%;
+margin-right: 5%;
 margin-top: 50px;
 margin-bottom: 50px;
 
@@ -244,6 +247,10 @@ margin-bottom: 50px;
     font-size: 20px;
 
 }
+.fa-check-circle {
+  color: orange;
+}
+
 
 .trittico {
   margin-left: 10%;
@@ -261,6 +268,7 @@ margin-bottom: 50px;
     width: 25%;
     border: 1px solid pink;
     float: left;
+    background-color: white;
 }
 
 
@@ -302,5 +310,32 @@ margin-bottom: 50px;
 }
 
 .trittico-button {
-  padding-bottom: 20px;
+  margin-bottom: 10px;
+}
+
+/* LIVELLO DUE */
+.livellodue {
+  background-color: green;
+  width: 100%;
+  border: 1px solid red;
+}
+
+.livellodue-top {
+  border: 1px solid black;
+  margin: 3% 10%;
+  text-align: center;
+}
+
+.livellodue-title {
+  font-size: 35px;
+  padding: 0 2%;
+  font-weight: bolder;
+  display: block;
+  margin-bottom: 30px;
+
+
+}
+
+.livellodue-subtitle {
+  font-size: 17px;
 }

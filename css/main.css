@@ -89,9 +89,9 @@ li.has-dropdown {
 /* BANNER */
 
 .banner {
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   width: 100%;
-  height:820px;
+  height:875px;
   background-image: url(../img/jumbotron.png);
   background-size: cover;
   background-position: right;
@@ -126,12 +126,138 @@ li.has-dropdown {
 #banner-down {
   font-size: 15px;
 }
-/* DIV FINALE */
+/* DIV FINE BANNER */
 .bannerbottom {
   width: 100%;
   height: 100px;
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
 
   background-color: green;
+}
+/* MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN  */
+/* LIVELLO UNO */
+.livellouno {
+  position: relative;
+  background-color: silver;
+}
+/*  PARTE SUPERIORE DEL LIVELLO UNO  */
+.livellouno-top {
+  width: 100%;
+  text-align: center;
+  border: 1px solid black;
+
+
+}
+.rubikdiv {
+  margin-left: 25%;
+  margin-right: 25%;
+  width: 50%;
+  border: 1px solid black;
+text-align: center;
+}
+.rubikimg {
+  margin-top: 30px;
+  width: 250px;
+}
+
+.rubik-title {
+  font-size: 50px;
+  display: block;
+  margin-bottom: 20px;
+}
+.rubik-subtitle {
+  font-size: 20px;
+
+
+}
+
+ /* SECONDA PARTE DEL LIVELLO UNO */
+
+ .contain {
+   border: 1px solid black;
+   margin-top: 50px;
+   position: relative;
+   margin-left: 15%;
+   margin-right: 15%;
+
+ }
+.containtop {
+  border: 1px solid green;
+  background-color: white;
+
+}
+
+.containtop::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.containtop-left, .containtop-right {
+  border: 1px solid blue;
+  text-align: center;
+  background-color: white;
+  float: left;
+}
+
+.containtop-left {
+  width: 10%;
+  text-align: center;
+  margin-left: 10%
+
+
+}
+.img-containtop {
+  width: 150px;
+  margin-top: 40%;
+  margin-bottom: 15px;
+}
+
+.containtop-right {
+width: 62%;
+text-align: left;
+margin-left: 8%;
+margin-right: 10%;
+margin-top: 50px;
+margin-bottom: 50px;
+
+}
+
+.containtop-right-title {
+  font-size: 25px;
+  font-weight: bolder;
+  display: block;
+  padding-bottom: 25px;
+
+}
+
+.containtop-right-subtitle {
+  font-size: 20px;
+  font-weight: bolder;
+  display: block;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.containtop-right-ul li {
+    display:inline;
+    font-size: 20px;
+
+}
+
+.trittico {
+  margin-left: 15%;
+  margin-right: 15%;
+  width: 100%;
+}
+
+.containtop::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.trittico-left, .trittico-right, .trittico-middle {
+    width: 30%;
+    border: pink;
+    float: left;
 }

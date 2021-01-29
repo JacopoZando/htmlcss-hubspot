@@ -339,3 +339,57 @@ margin-bottom: 50px;
 .livellodue-subtitle {
   font-size: 17px;
 }
+
+/* PARTE INFERIORE DEL LIVELLO DUE, PARTE CON I BLOCCHI */
+.livellodue-down {
+  margin: 0 10%;
+
+}
+/* CLEARFIX */
+/* .livellodue-down::after {
+  content: "";
+  display: table;
+  clear: both;
+} */
+.livellodue-bloccodiquattro-top::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .livellodue-bloccodiquattro-down::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.livellodue-bloccodiquattro-top {
+  border-bottom: 1px solid white;
+}
+.livellodue-blocco {
+  width:25%;
+  float: left;
+  color: white;
+  height: 200px;
+}
+
+.livellodue-bloccodiquattro-title {
+  font-size: 50px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.livellodue-bloccodiquattro-subtitle {
+  font-size: 15px;
+  display: block;
+  margin-bottom: 15px;
+
+}
+
+ .livellodue-bloccodiquattro-img {
+   margin: 15px 0;
+ }
+
+ .due, .tre, .quattro, .sei, .sette, .otto {
+   border-left: 1px solid white;
+ }

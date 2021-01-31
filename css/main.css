@@ -256,6 +256,7 @@ margin-bottom: 50px;
   margin-left: 10%;
   margin-right: 10%;
   width: 100%;
+  margin-bottom: 30px;
 }
 
 .trittico::after {
@@ -324,6 +325,7 @@ margin-bottom: 50px;
   border: 1px solid black;
   margin: 3% 10%;
   text-align: center;
+  color: white;
 }
 
 .livellodue-title {
@@ -382,7 +384,7 @@ margin-bottom: 50px;
 .livellodue-bloccodiquattro-subtitle {
   font-size: 15px;
   display: block;
-  margin-bottom: 15px;
+
 
 }
 
@@ -393,3 +395,209 @@ margin-bottom: 50px;
  .due, .tre, .quattro, .sei, .sette, .otto {
    border-left: 1px solid white;
  }
+
+ /* LIVELLO TRE */
+ /* PARTE SUPERIORE DEL LIVELLO TRE */
+
+ .livellotre {
+   background-color: white;
+   position: relative;
+   border: 1px solid green;
+   width: 100%;
+   border: 1px solid orange;
+ }
+
+ .livellotre-top::after {
+   content: "";
+   display: table;
+   clear: both;
+ }
+
+.livellotre-top {
+  margin-left: 15%;
+  margin-right: 15%
+
+}
+
+ .livellotre-top-left {
+   border: 1px solid violet;
+   width: 150px;
+   margin-top: 50px;
+
+
+ }
+
+ .livellotre-top-left-title {
+   font-size: 40px;
+   display: block;
+   margin-bottom: 10px;
+   font-weight: bolder;
+ }
+ .livellotre-top-left-subtitle {
+   font-size: 15px;
+   text-align: justify;
+ }
+/* BLOCCO DI 8 LOGHI */
+.livellotre-top-left {
+  float: left;
+}
+.livellotre-top-right {
+  float: right;
+  margin-top: 50px
+}
+  .livellotre-top-right-sup, .livellotre-top-right-inf {
+    border: 1px solid red;
+    height: 50px;
+    width: 500px;
+
+  }
+
+ .livellotre-top-right-inf {
+   margin-top: 10px;
+
+ }
+
+ img.livellotre-top-right-sup-img {
+   width: 100px;
+
+ }
+
+.livellotre-top-right-inf img:nth-of-type(odd) {
+  background-color: blue;
+}
+
+/* PARTE INFERIORE DEL LIVELLO TRE */
+
+.livellotre-down {
+  
+  margin-top: 50px;
+}
+.livellotre-down {
+  content: "";
+  display: table;
+  clear: both;
+}
+.livellotre-down-left {
+  text-align: left;
+  width: 35%;
+  border: red;
+  float: left;
+}
+.livellotre-down-left-title {
+  display: block;
+  font-size: 30px;
+  font-weight: bold;
+}
+.livellotre-down-left-subtitle {
+  display: block;
+  font-size: 15px;
+}
+.livellotre-down-left-subsubtitle {
+  font-size: 10px;
+  display: block;
+}
+
+.livellotre-down-right {
+  width: 30%;
+  border: 1px solid blue;
+  float: right;
+}
+.livellotre-down-right-img {
+  width: 250px;
+}
+
+/* FOOTER */
+.footer-container {
+
+  background-color: grey;
+  width: 100%
+
+}
+/* ZONA ALTA DEL FOOTER */
+.footer-top::after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+.footer-top {
+
+  border: 1px solid violet;
+
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.footer-top-section {
+  float: left;
+  width: 25%;
+  border: 1px solid blue;
+  text-align: left;
+  margin-top: 25px;
+
+}
+
+.footer-top-section-title {
+  color: white;
+  font-weight: bold;
+
+}
+
+.footer-top-section-ul {
+  list-style-type: none;
+  color: silver;
+}
+
+.footer-top-section-ul li:first-child {
+  margin-top: 15px;
+}
+.footer-top-section-ul li{
+  margin-bottom: 10px;
+}
+.button-footer-top {
+  display: block;
+  margin: 10px 0;
+}
+
+.footer-top-section-linklist {
+  color:white;
+}
+.footer-top-section-linklist i {
+  padding-right: 15px;
+}
+
+/* ZONA INFERIORE DEL FOOTER */
+.footer-down {
+  margin: 40px 15% 0 15% ;
+}
+
+.footer-down-sup {
+  border-bottom: 1px solid yellow;
+  height: 30px;
+  vertical-align: middle;
+}
+
+ul.footer-down-sup-ul {
+  color: violet;
+  list-style-type: none;
+}
+
+.footer-down-sup-ul li {
+  display: inline;
+  padding:10px;
+}
+
+/* PARTE INFERIORE DEL FOOTER */
+.footer-down-inf::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer-down-inf-left {
+float:left;
+}
+
+.footer-down-inf-right {
+  float: right;
+}

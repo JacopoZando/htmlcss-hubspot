@@ -10,7 +10,7 @@
 }
 /*  PRIMA ZONA DI NAVIGAZIONE  */
 .navuno {
-  background-color: silver;
+  background-color: #F4F9FD;
   height: 75px;
   width: 100%;
   border: 1px solid violet;
@@ -18,7 +18,6 @@
 .navuno li {
   font-size: 20px;
   display: inline;
-
 }
 .navuno ul:first-child {
   float: left;
@@ -30,6 +29,16 @@
   margin-right: 15%;
   margin-top: 15px;
 }
+
+.navuno-primoul:nth-child(2) {
+  margin: 0 10px;
+}
+
+.navuno-secondoul li:first-child {
+  color: #71BACD;
+  margin-right: 15px;
+}
+
 button {
   outline: none;
   text-align: center;
@@ -38,7 +47,17 @@ button {
   border: solid 1px grey;
   border-radius: 4px;
   padding: 10px 20px;
-  background-color: orange;
+  background-color: #FD765A;
+  color: white;
+}
+
+.button-login {
+  background-color: white;
+  border: solid 1px #FD765A;
+  color: #FD765A;
+}
+.button-login, .button-get {
+  margin-left: 15px;
 }
 
 /*  SECONDA ZONA DI NAVIGAZIONE  */
@@ -64,6 +83,10 @@ button {
   float: right;
   margin-right: 15%;
   margin-top: 25px;
+}
+
+.navdue li {
+  margin-left: 20px;
 }
 
 li.has-dropdown::after {
@@ -96,7 +119,6 @@ li.has-dropdown {
   background-size: cover;
   background-position: right;
   background-position: top;
-
   background-repeat: no-repeat;
   position: relative;
 }
@@ -104,6 +126,9 @@ li.has-dropdown {
   width: 650px;
   text-align: left;
   margin-left: 15%;
+  position: absolute;
+  margin-top: 50px;
+
 
 }
 #banner-title {
@@ -111,6 +136,7 @@ li.has-dropdown {
   font-weight: bolder;
   display: block;
   margin-bottom: 20px;
+
 }
 #banner-descr {
   font-size: 20px;
@@ -133,13 +159,13 @@ li.has-dropdown {
   border-top: 3px solid black;
   border-bottom: 3px solid black;
 
-  background-color: green;
+  background-color: #AFEBE3;
 }
 /* MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN  */
 /* LIVELLO UNO */
 .livellouno {
   position: relative;
-  background-color: silver;
+  background-color: #F4F9FD;
 }
 /*  PARTE SUPERIORE DEL LIVELLO UNO  */
 .livellouno-top {
@@ -310,6 +336,7 @@ margin-bottom: 50px;
   list-style-type: none;
   margin-bottom: 30px;
   text-align: left;
+  margin-left: 20px;
 }
 
 .trittico-button {
@@ -318,7 +345,7 @@ margin-bottom: 50px;
 
 /* LIVELLO DUE */
 .livellodue {
-  background-color: green;
+  background-color: #00B0B2;
   width: 100%;
   border: 1px solid red;
 }
@@ -424,10 +451,10 @@ margin-bottom: 50px;
 
  .livellotre-top-left {
    border: 1px solid violet;
-   width: 150px;
+   width: 160px;
    margin-top: 50px;
-
-
+   float: left;
+   margin-left: 6%;
  }
 
  .livellotre-top-left-title {
@@ -441,9 +468,7 @@ margin-bottom: 50px;
    text-align: justify;
  }
 /* BLOCCO DI 8 LOGHI */
-.livellotre-top-left {
-  float: left;
-}
+
 .livellotre-top-right {
   float: right;
   margin-top: 50px
@@ -451,7 +476,7 @@ margin-bottom: 50px;
   .livellotre-top-right-sup, .livellotre-top-right-inf {
     border: 1px solid red;
     height: 50px;
-    width: 500px;
+    width: 600px;
 
   }
 
@@ -462,6 +487,7 @@ margin-bottom: 50px;
 
  img.livellotre-top-right-sup-img {
    width: 100px;
+   margin-left: 15px;
 
  }
 
@@ -482,7 +508,7 @@ margin-bottom: 50px;
 }
 .livellotre-down-left {
   text-align: left;
-  width: 35%;
+  width: 30%;
   border: red;
   float: left;
 }
@@ -494,16 +520,25 @@ margin-bottom: 50px;
 .livellotre-down-left-subtitle {
   display: block;
   font-size: 15px;
+  margin-top: 30px;
 }
 .livellotre-down-left-subsubtitle {
   font-size: 10px;
   display: block;
+}
+.livellotre-down-left-button {
+  margin-top: 30px;
+}
+
+.livellotre-down-left-subsubtitle {
+  margin-top: 30px;
 }
 
 .livellotre-down-right {
   width: 20%;
   border: 1px solid blue;
   float: right;
+
 }
 .livellotre-down-right-img {
   width: 250px;
@@ -512,7 +547,7 @@ margin-bottom: 50px;
 /* FOOTER */
 .footer-container {
 
-  background-color: grey;
+  background-color: #32495B;
   width: 100%
 
 }
@@ -569,6 +604,12 @@ margin-bottom: 50px;
   padding-right: 15px;
 }
 
+.button-footer-top {
+  background-color: #DADEE0;
+  color: #32495B;
+  font-size: 12px;
+}
+
 /* ZONA INFERIORE DEL FOOTER */
 .footer-down {
   margin: 40px 15% 0 15% ;
@@ -577,7 +618,7 @@ margin-bottom: 50px;
 .footer-down-sup {
   border-bottom: 1px solid yellow;
   height: 30px;
-  vertical-align: middle;
+  text-align: center;
 }
 
 ul.footer-down-sup-ul {
@@ -597,10 +638,30 @@ ul.footer-down-sup-ul {
   clear: both;
 }
 
+.footer-down-inf {
+  margin-top: 20px;
+}
+
 .footer-down-inf-left {
 float:left;
 }
 
 .footer-down-inf-right {
   float: right;
+}
+
+.footer-down-inf-right-ul {
+  list-style-type: none;
+  display: inline;
+}
+
+ul.footer-down-inf-right-ul li {
+  display: inline;
+  padding-left: 10px;
+  color:silver;
+}
+
+.footer-down-inf-left-subtitle {
+  display: block;
+  color: silver;
 }

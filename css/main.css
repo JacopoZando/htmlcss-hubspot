@@ -185,8 +185,8 @@ text-align: center;
 .containtop {
   border: 1px solid green;
   background-color: white;
-  margin-left: 10%;
-  margin-right: 10%;
+  /* margin-left: 10%;
+  margin-right: 10%; */
   margin-bottom: 50px;
 
 }
@@ -253,8 +253,8 @@ margin-bottom: 50px;
 
 
 .trittico {
-  margin-left: 10%;
-  margin-right: 10%;
+  /* margin-left: 10%;
+  margin-right: 10%; */
   width: 100%;
   margin-bottom: 30px;
 }
@@ -266,16 +266,17 @@ margin-bottom: 50px;
 }
 
 .trittico-left, .trittico-right, .trittico-middle {
-    width: 25%;
+    width: 30%;
     border: 1px solid pink;
     float: left;
     background-color: white;
+    text-align: center;
 }
 
 
 .trittico-middle {
-  margin-left: 2.5%;
-  margin-right: 2.5%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .img-trittico {
@@ -308,6 +309,7 @@ margin-bottom: 50px;
   font-size: 18px;
   list-style-type: none;
   margin-bottom: 30px;
+  text-align: left;
 }
 
 .trittico-button {
@@ -323,7 +325,7 @@ margin-bottom: 50px;
 
 .livellodue-top {
   border: 1px solid black;
-  margin: 3% 10%;
+  margin: 3% 15%;
   text-align: center;
   color: white;
 }
@@ -344,7 +346,8 @@ margin-bottom: 50px;
 
 /* PARTE INFERIORE DEL LIVELLO DUE, PARTE CON I BLOCCHI */
 .livellodue-down {
-  margin: 0 10%;
+  margin: 0 15%;
+  text-align: center;
 
 }
 /* CLEARFIX */
@@ -469,13 +472,13 @@ margin-bottom: 50px;
 /* PARTE INFERIORE DEL LIVELLO TRE */
 
 .livellotre-down {
-  
-  margin-top: 50px;
+  margin: 50px 15%;
 }
-.livellotre-down {
+.livellotre-down::after {
   content: "";
   display: table;
   clear: both;
+
 }
 .livellotre-down-left {
   text-align: left;
@@ -498,7 +501,7 @@ margin-bottom: 50px;
 }
 
 .livellotre-down-right {
-  width: 30%;
+  width: 20%;
   border: 1px solid blue;
   float: right;
 }

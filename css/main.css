@@ -3,11 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-.wrapper {
-  position: relative;
-  text-align: center;
-}
+/* HEADER */
 /*  PRIMA ZONA DI NAVIGAZIONE  */
 .navuno {
   background-color: #F4F9FD;
@@ -24,6 +20,7 @@
   margin-left: 15%;
   margin-top: 25px;
 }
+
 .navuno ul:nth-child(2) {
   float: right;
   margin-right: 15%;
@@ -31,7 +28,7 @@
 }
 
 .navuno-primoul:nth-child(2) {
-  margin: 0 10px;
+  margin: 0 30px;
 }
 
 .navuno-secondoul li:first-child {
@@ -39,14 +36,18 @@
   margin-right: 15px;
 }
 
+.lispaces {
+  padding: 0 15px;
+}
+
 button {
   outline: none;
   text-align: center;
   text-decoration: none;
   font-size: 15px;
-  border: solid 1px grey;
+  border: solid 1px #FD765A;
   border-radius: 4px;
-  padding: 10px 20px;
+  padding: 15px 25px;
   background-color: #FD765A;
   color: white;
 }
@@ -58,6 +59,7 @@ button {
 }
 .button-login, .button-get {
   margin-left: 15px;
+  padding: 10px 20px;
 }
 
 /*  SECONDA ZONA DI NAVIGAZIONE  */
@@ -171,16 +173,13 @@ li.has-dropdown {
 .livellouno-top {
   width: 100%;
   text-align: center;
-  border: 1px solid black;
-
-
 }
+
 .rubikdiv {
   margin-left: 25%;
   margin-right: 25%;
   width: 50%;
-  border: 1px solid black;
-text-align: center;
+  text-align: center;
 }
 .rubikimg {
   margin-top: 30px;
@@ -194,14 +193,12 @@ text-align: center;
 }
 .rubik-subtitle {
   font-size: 20px;
-
-
 }
 
  /* SECONDA PARTE DEL LIVELLO UNO */
 
  .contain {
-   border: 1px solid black;
+
    margin-top: 50px;
    position: relative;
    margin-left: 15%;
@@ -209,11 +206,12 @@ text-align: center;
 
  }
 .containtop {
-  border: 1px solid green;
+
   background-color: white;
   /* margin-left: 10%;
   margin-right: 10%; */
   margin-bottom: 50px;
+  position: relative;
 
 }
 
@@ -222,8 +220,8 @@ text-align: center;
   display: table;
   clear: both;
 }
-.containtop-left, .containtop-right {
-  border: 1px solid blue;
+.containtop-left, .containtop-right-up{
+
   text-align: center;
   background-color: white;
   float: left;
@@ -233,7 +231,7 @@ text-align: center;
   width: 20%;
   text-align: center;
   margin-left: 5%;
-  margin-top: 30px;
+
 
 
 }
@@ -250,6 +248,7 @@ margin-left: 8%;
 margin-right: 5%;
 margin-top: 50px;
 margin-bottom: 50px;
+float: right;
 
 }
 
@@ -258,21 +257,39 @@ margin-bottom: 50px;
   font-weight: bolder;
   display: block;
   padding-bottom: 25px;
+  padding-top: 5px;
+
 
 }
 
 .containtop-right-subtitle {
   font-size: 20px;
   font-weight: bolder;
-  display: block;
   padding-top: 25px;
   padding-bottom: 25px;
+  display: block;
+
 }
+/* QUESTA COSA NON MI PIACE */
+.rigadritta {
+  position: absolute;
+  border: 1px solid grey;
+  margin-left: 50%;
+  margin-top: 14%;
+  width: 500px;
+}
+
 .containtop-right-ul li {
     display:inline;
     font-size: 20px;
-
 }
+
+.containtop-right-ul li:not(:first-child) {
+  margin-left: 10px;
+}
+
+
+
 .fa-check-circle {
   color: orange;
 }
@@ -282,7 +299,6 @@ margin-bottom: 50px;
   /* margin-left: 10%;
   margin-right: 10%; */
   width: 100%;
-  margin-bottom: 30px;
 }
 
 .trittico::after {
@@ -293,7 +309,7 @@ margin-bottom: 50px;
 
 .trittico-left, .trittico-right, .trittico-middle {
     width: 30%;
-    border: 1px solid pink;
+    margin-bottom: 50px;
     float: left;
     background-color: white;
     text-align: center;
@@ -324,6 +340,13 @@ margin-bottom: 50px;
   display: block;
 }
 
+.trittico-rigadritta {
+  width:80%;
+  margin: 50px 0 30px 10%;
+  border-top: 1px solid black;
+  display: block;
+}
+
 .trittico-subtitle {
   font-size: 20px;
   font-weight: bold;
@@ -339,6 +362,10 @@ margin-bottom: 50px;
   margin-left: 20px;
 }
 
+.trittico-ul li>i {
+  padding-right: 10px;
+}
+
 .trittico-button {
   margin-bottom: 10px;
 }
@@ -347,42 +374,38 @@ margin-bottom: 50px;
 .livellodue {
   background-color: #00B0B2;
   width: 100%;
-  border: 1px solid red;
+
 }
 
 .livellodue-top {
-  border: 1px solid black;
-  margin: 3% 15%;
+
+  margin: 0% 15%;
   text-align: center;
   color: white;
 }
 
 .livellodue-title {
   font-size: 35px;
-  padding: 0 2%;
+  padding: 30px 7% 0 7%;
   font-weight: bolder;
   display: block;
   margin-bottom: 30px;
-
 
 }
 
 .livellodue-subtitle {
   font-size: 17px;
+  margin-left: 3%;
+  margin-right: 3%;
 }
 
 /* PARTE INFERIORE DEL LIVELLO DUE, PARTE CON I BLOCCHI */
 .livellodue-down {
-  margin: 0 15%;
+  margin: 40px 15%;
   text-align: center;
 
 }
-/* CLEARFIX */
-/* .livellodue-down::after {
-  content: "";
-  display: table;
-  clear: both;
-} */
+
 .livellodue-bloccodiquattro-top::after {
     content: "";
     display: table;
@@ -393,6 +416,10 @@ margin-bottom: 50px;
     content: "";
     display: table;
     clear: both;
+  }
+
+  .livellodue-bloccodiquattro-down {
+    padding-bottom: 50px;
   }
 
 .livellodue-bloccodiquattro-top {
@@ -432,9 +459,8 @@ margin-bottom: 50px;
  .livellotre {
    background-color: white;
    position: relative;
-   border: 1px solid green;
    width: 100%;
-   border: 1px solid orange;
+
  }
 
  .livellotre-top::after {
@@ -450,7 +476,7 @@ margin-bottom: 50px;
 }
 
  .livellotre-top-left {
-   border: 1px solid violet;
+
    width: 160px;
    margin-top: 50px;
    float: left;
@@ -474,7 +500,7 @@ margin-bottom: 50px;
   margin-top: 50px
 }
   .livellotre-top-right-sup, .livellotre-top-right-inf {
-    border: 1px solid red;
+
     height: 50px;
     width: 600px;
 
@@ -498,7 +524,7 @@ margin-bottom: 50px;
 /* PARTE INFERIORE DEL LIVELLO TRE */
 
 .livellotre-down {
-  margin: 50px 15%;
+  margin: 75px 15% 50px 15%;
 }
 .livellotre-down::after {
   content: "";
@@ -509,7 +535,7 @@ margin-bottom: 50px;
 .livellotre-down-left {
   text-align: left;
   width: 30%;
-  border: red;
+
   float: left;
 }
 .livellotre-down-left-title {
@@ -536,7 +562,6 @@ margin-bottom: 50px;
 
 .livellotre-down-right {
   width: 20%;
-  border: 1px solid blue;
   float: right;
 
 }
@@ -560,7 +585,7 @@ margin-bottom: 50px;
 }
 .footer-top {
 
-  border: 1px solid violet;
+
 
   margin-left: 15%;
   margin-right: 15%;
@@ -569,7 +594,7 @@ margin-bottom: 50px;
 .footer-top-section {
   float: left;
   width: 25%;
-  border: 1px solid blue;
+
   text-align: left;
   margin-top: 25px;
 
@@ -592,9 +617,13 @@ margin-bottom: 50px;
 .footer-top-section-ul li{
   margin-bottom: 10px;
 }
-.button-footer-top {
+.footer-top-button {
   display: block;
   margin: 10px 0;
+  background-color: #DADEE0;
+  color: #32495B;
+  font-size: 12px;
+  border: none;
 }
 
 .footer-top-section-linklist {
@@ -604,25 +633,20 @@ margin-bottom: 50px;
   padding-right: 15px;
 }
 
-.button-footer-top {
-  background-color: #DADEE0;
-  color: #32495B;
-  font-size: 12px;
-}
-
 /* ZONA INFERIORE DEL FOOTER */
 .footer-down {
   margin: 40px 15% 0 15% ;
+
 }
 
 .footer-down-sup {
-  border-bottom: 1px solid yellow;
+  border-bottom: 1px solid white;
   height: 30px;
   text-align: center;
 }
 
 ul.footer-down-sup-ul {
-  color: violet;
+  color: silver;
   list-style-type: none;
 }
 

@@ -106,7 +106,7 @@ li.has-dropdown::after {
 }
 
 li.has-dropdown {
-  padding-right: 20px;
+  padding-right: 25px;
   position: relative;
 
 }
@@ -511,15 +511,16 @@ float: right;
 
  }
 
+ .livellotre-top-right-inf img,
+ .livellotre-top-right-sup  img {
+   vertical-align: middle;
+ }
+
  img.livellotre-top-right-sup-img {
    width: 100px;
    margin-left: 15px;
 
  }
-
-.livellotre-top-right-inf img:nth-of-type(odd) {
-  background-color: blue;
-}
 
 /* PARTE INFERIORE DEL LIVELLO TRE */
 

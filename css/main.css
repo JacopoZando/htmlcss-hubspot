@@ -4,12 +4,23 @@
   box-sizing: border-box;
 }
 /* HEADER */
+
+header {position: relative;}
+
 /*  PRIMA ZONA DI NAVIGAZIONE  */
+.containerfix {
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  height: 150px;
+  top: 0;
+}
+
 .navuno {
   background-color: #F4F9FD;
   height: 75px;
   width: 100%;
-  border: 1px solid violet;
+  top: 0;
 }
 .navuno li {
   font-size: 20px;
@@ -68,7 +79,9 @@ button {
   /* background-color: silver; */
   height: 75px;
   width: 100%;
-  border: 1px solid black;
+  border-top: 1px solid black;
+  background-color: white;
+
 }
 #logo {
   float: left;
@@ -79,16 +92,13 @@ button {
 .navdue li {
   display: inline;
   font-size: 20px;
+  margin-left: 20px;
 }
 
 .navdue ul {
   float: right;
   margin-right: 15%;
   margin-top: 25px;
-}
-
-.navdue li {
-  margin-left: 20px;
 }
 
 li.has-dropdown::after {
@@ -108,7 +118,6 @@ li.has-dropdown::after {
 li.has-dropdown {
   padding-right: 25px;
   position: relative;
-
 }
 
 /* BANNER */
@@ -123,6 +132,7 @@ li.has-dropdown {
   background-position: top;
   background-repeat: no-repeat;
   position: relative;
+  margin-top: 150px;
 }
 .text-banner-area {
   width: 650px;
@@ -130,8 +140,6 @@ li.has-dropdown {
   margin-left: 15%;
   position: absolute;
   margin-top: 50px;
-
-
 }
 #banner-title {
   font-size: 60px;
@@ -163,6 +171,9 @@ li.has-dropdown {
 
   background-color: #AFEBE3;
 }
+
+
+
 /* MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN  */
 /* LIVELLO UNO */
 .livellouno {
@@ -208,8 +219,6 @@ li.has-dropdown {
 .containtop {
 
   background-color: white;
-  /* margin-left: 10%;
-  margin-right: 10%; */
   margin-bottom: 50px;
   position: relative;
 
@@ -258,8 +267,6 @@ float: right;
   display: block;
   padding-bottom: 25px;
   padding-top: 5px;
-
-
 }
 
 .containtop-right-subtitle {
@@ -288,12 +295,9 @@ float: right;
   margin-left: 10px;
 }
 
-
-
 .fa-check-circle {
   color: orange;
 }
-
 
 .trittico {
   /* margin-left: 10%;
@@ -477,32 +481,32 @@ float: right;
 
  .livellotre-top-left {
 
-   width: 160px;
-   margin-top: 50px;
+   width: 200px;
+   margin-top: 20px;
    float: left;
    margin-left: 6%;
  }
 
  .livellotre-top-left-title {
-   font-size: 40px;
+   font-size: 50px;
    display: block;
    margin-bottom: 10px;
    font-weight: bolder;
  }
  .livellotre-top-left-subtitle {
-   font-size: 15px;
+   font-size: 18px;
    text-align: justify;
  }
 /* BLOCCO DI 8 LOGHI */
 
 .livellotre-top-right {
   float: right;
-  margin-top: 50px
+  margin-top: 30px
 }
   .livellotre-top-right-sup, .livellotre-top-right-inf {
 
     height: 50px;
-    width: 600px;
+
 
   }
 
@@ -517,7 +521,7 @@ float: right;
  }
 
  img.livellotre-top-right-sup-img {
-   width: 100px;
+   width: 150px;
    margin-left: 15px;
 
  }

@@ -2,12 +2,41 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
 /* HEADER */
 
 header {position: relative;}
 
+/* ELEMENTI PERSONALIZZATI*/
+/* MARGINI PER I CONTAINER */
+.sizeme {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+/* BOTTONI PER I LINK */
+.bottonearancio {
+  padding: 7px 15px;
+  border: 1px solid #FD765A;
+  border-radius: 3px;
+  background-color: #FD765A;
+  color: white;
+}
+.bottonebianco {
+  padding: 7px 15px;
+  border: 1px solid #FD765A;
+  border-radius: 3px;
+  background-color: white;
+  color: #FD765A;
+}
+
+/* annullare la sottolineatura del link */
+a:link {
+  text-decoration: none;
+}
+
 /*  PRIMA ZONA DI NAVIGAZIONE  */
+
 .containerfix {
   position: fixed;
   z-index: 2;
@@ -21,6 +50,7 @@ header {position: relative;}
   height: 75px;
   width: 100%;
   top: 0;
+  line-height: 75px;
 }
 .navuno li {
   font-size: 20px;
@@ -29,13 +59,13 @@ header {position: relative;}
 .navuno ul:first-child {
   float: left;
   margin-left: 15%;
-  margin-top: 25px;
+
 }
 
 .navuno ul:nth-child(2) {
   float: right;
   margin-right: 15%;
-  margin-top: 15px;
+
 }
 
 .navuno-primoul:nth-child(2) {
@@ -81,12 +111,13 @@ button {
   width: 100%;
   border-top: 1px solid black;
   background-color: white;
-
+  line-height: 75px;
 }
+
+
 #logo {
-  float: left;
   margin-left: 15%;
-  margin-top: 20px;
+  float: left;
 }
 
 .navdue li {
@@ -98,7 +129,6 @@ button {
 .navdue ul {
   float: right;
   margin-right: 15%;
-  margin-top: 25px;
 }
 
 li.has-dropdown::after {
@@ -126,10 +156,11 @@ li.has-dropdown {
   /* border: 1px solid blue; */
   width: 100%;
   height:875px;
+  background-color: #FFF3EE;
   background-image: url(../img/jumbotron.png);
-  background-size: cover;
-  background-position: right;
-  background-position: top;
+  /* background-size: cover; */
+  background-position: right bottom;
+  /* background-position: top; */
   background-repeat: no-repeat;
   position: relative;
   margin-top: 150px;
@@ -139,7 +170,8 @@ li.has-dropdown {
   text-align: left;
   margin-left: 15%;
   position: absolute;
-  margin-top: 50px;
+padding-top: 50px;
+
 }
 #banner-title {
   font-size: 60px;
@@ -154,13 +186,15 @@ li.has-dropdown {
   display: block;
 }
 
-#banner-button {
-  margin-bottom: 20px;
-  display: block;
+.bannerbutton {
+  font-size: 25px;
+
 }
 
 #banner-down {
   font-size: 15px;
+  display: block;
+  margin-top: 20px;
 }
 /* DIV FINE BANNER */
 .bannerbottom {
@@ -168,8 +202,9 @@ li.has-dropdown {
   height: 100px;
   border-top: 3px solid black;
   border-bottom: 3px solid black;
-
   background-color: #AFEBE3;
+  position: absolute;
+  bottom: 0;
 }
 
 
@@ -212,8 +247,6 @@ li.has-dropdown {
 
    margin-top: 50px;
    position: relative;
-   margin-left: 15%;
-   margin-right: 15%;
 
  }
 .containtop {
@@ -383,7 +416,6 @@ float: right;
 
 .livellodue-top {
 
-  margin: 0% 15%;
   text-align: center;
   color: white;
 }
@@ -472,12 +504,6 @@ float: right;
    display: table;
    clear: both;
  }
-
-.livellotre-top {
-  margin-left: 15%;
-  margin-right: 15%
-
-}
 
  .livellotre-top-left {
 
@@ -587,13 +613,6 @@ float: right;
   display: table;
   clear: both;
 
-}
-.footer-top {
-
-
-
-  margin-left: 15%;
-  margin-right: 15%;
 }
 
 .footer-top-section {
